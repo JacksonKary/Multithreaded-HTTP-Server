@@ -11,7 +11,7 @@ This queue is also thread safe, meaning that even with multiple threads concurre
 
 This involves setting up a TCP server socket and accepting incoming client connection requests in the main() function defined in the http_server.c file and then implementing HTTP request parsing and response generation by completing the HTTP library functions defined in http.c.
 
-## This project will focus on a few important systems programming topics:
+## This project uses a number of important systems programming topics:
 
 - TCP server socket setup and initialization with socket(), bind(), and listen()
 - Server-side TCP communication with accept() followed by read() and write()
