@@ -19,3 +19,27 @@ This involves setting up a TCP server socket and accepting incoming client conne
 - Clean server termination through signal handling
 - Thread creation and management with pthread_create() and pthread_join()
 - Implementation of a thread-safe queue data structure with the pthread_mutex_t and pthread_cond_t primitives
+
+
+
+## What is in this directory?
+<ul>
+  <li>  <code>http.h</code> : Header file for HTTP library functions.
+  <li>  <code>http.c</code> : Implementation of HTTP library functions.
+  <li>  <code>http_server.c</code> : Main HTTP Server Program.
+  <li>  <code>server_files/</code> : Folder, which contains: Sample files for the server to offer to clients.
+  <li>  <code>connection_queue.h</code> : Header file for thread-safe queue data structure.
+  <li>  <code>connection_queue.c</code> : Implementation of thread-safe queue data structure.
+  <li>  <code>testius</code> : Script for executing test cases.
+  <li>  <code>test_cases/</code> : Folder, which contains: Test cases and related materials
+  <li>  <code>Makefile</code> : Build file to compile and run test cases.
+</ul>
+
+## Running Tests
+<ul>
+  <li>  <code>make</code> : Compile all code, produce an executable program.
+  <li>  <code>make clean</code> : Remove all compiled items. Useful if you want to recompile everything from scratch.
+  <li>  <code>make clean-tests</code> : Remove all files produced during execution of the tests.
+  <li>  <code>make test</code> : Run all test cases
+  <li>  <code>make test testnum=5</code> : Run test case #5 only
+</ul>
