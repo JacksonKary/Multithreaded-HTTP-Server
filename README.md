@@ -39,7 +39,7 @@ This involved setting up a TCP server socket and accepting incoming client conne
 
 There are many ways to test this server. By far, the simplest method is to simply run the makefile command:
 
-<code>make test port=\<port></code> , where <port>
+<code>make test port=\<port></code> , where \<port>
   is the port you want the server to bind to (default is 8000, valid range is 1024 through 65535). 
 
 However, the most satisfying way to test this server is to actually run it  using the following command format:
