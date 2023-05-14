@@ -20,6 +20,26 @@ This involved setting up a TCP server socket and accepting incoming client conne
 - Thread creation and management with pthread_create() and pthread_join()
 - Implementation of a thread-safe queue data structure with the pthread_mutex_t and pthread_cond_t primitives
 
+## Running the Server
+
+There are many ways to test this server. By far, the simplest method is to simply run the makefile command:
+
+<code>make test</code>
+
+or
+
+<code>make test port=\<port></code> , where \<port>
+  is the port you want the server to bind to (default is 8000, valid range is 1024 through 65535). 
+
+However, the most satisfying way to test this server is to actually run it  using the following command format:
+
+<code>> ./http_server <serve_dir> \<port></code> , where <serve_dir> is the directory containing content for clients to request (To use the provided directory, use "server_files/").
+  
+This launches the server so it is ready to take clients. Now, connect to the server with a client. There are multiple ways to do this, but the coolest way is to send a request via an internet browser.
+
+  Typing: <code>localhost:\<port>/\<resource></code> in your browser and pressing enter should connect, retrieve, and display the results on your screen. \<port> is the port number the server is binded to and \<resource>
+  is the name of the item you're requesting from \<serve_dir> ("server_files/"). 
+
 
 
 ## What is in this directory?
@@ -36,20 +56,6 @@ This involved setting up a TCP server socket and accepting incoming client conne
 </ul>
 
 ## Running Tests
-
-There are many ways to test this server. By far, the simplest method is to simply run the makefile command:
-
-<code>make test port=\<port></code> , where \<port>
-  is the port you want the server to bind to (default is 8000, valid range is 1024 through 65535). 
-
-However, the most satisfying way to test this server is to actually run it  using the following command format:
-
-<code>> ./http_server <serve_dir> \<port></code> , where <serve_dir> is the directory containing content for clients to request (To use the provided directory, use "server_files/").
-  
-This launches the server so it is ready to take clients. Now, connect to the server with a client. There are multiple ways to do this, but the coolest way is to send a request via an internet browser.
-
-  Typing: <code>localhost:\<port>/\<resource></code> in your browser and pressing enter should connect, retrieve, and display the results on your screen. \<port> is the port number the server is binded to and \<resource>
-  is the name of the item you're requesting from \<serve_dir> ("server_files/"). 
   
 A Makefile is provided as part of this project. This file supports the following commands:
 
