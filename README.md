@@ -30,7 +30,7 @@ This involved setting up a TCP server socket and accepting incoming client conne
   <li>  <code>connection_queue.h</code> : Header file for thread-safe queue data structure.
   <li>  <code>connection_queue.c</code> : Implementation of thread-safe queue data structure.
   <li>  <code>server_files/</code> : Folder, which contains sample files for the server to offer to clients.
-  <li>  <code>test_cases/</code> : Folder, which contains test cases and related materials
+  <li>  <code>test_cases/</code> : Folder, which contains test cases and related materials.
   <li>  <code>testius</code> : Script for executing test cases.
   <li>  <code>Makefile</code> : Build file to compile and run test cases.
 </ul>
