@@ -1,0 +1,15 @@
+Starting HTTP Server
+Starting request for file quote.txt
+Starting request for file headers.html
+Starting request for file index.html
+Starting request for file courses.txt
+Starting request for file mt2_practice.pdf
+Starting request for file gatsby.txt
+Starting request for file africa.jpg
+Starting request for file ocelot.jpg
+Starting request for file hard_drive.png
+Starting request for file Lec01.pdf
+Waiting for HTTP responses
+All HTTP responses received
+Sending SIGINT to trigger server shutdown
+Server has terminated

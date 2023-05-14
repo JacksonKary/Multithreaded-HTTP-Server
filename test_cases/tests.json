@@ -1,0 +1,12 @@
+{
+    "name": "Project 04",
+    "tests": [
+        {
+            "name": "Concurrent Client Requests",
+            "description": "Launches concurrent clients (curl) to fetch each possible file from the server and checks that all are successful. Note that you won't be able to pass this test unless your server supports a minimum number of concurrent clients.",
+            "command": "bash test_cases/resources/concurrent_test.sh",
+            "output_file": "test_cases/output/concurrent_test.txt",
+            "points": 10
+        }
+    ]
+}

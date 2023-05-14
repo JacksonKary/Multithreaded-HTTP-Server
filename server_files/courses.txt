@@ -1,0 +1,62 @@
+CHEM 1061 Chemical Principles I
+CHEM 1062 Chemical Principles II
+CSCI 1103 Introduction to Computer Programming in Java
+CSCI 1113 Introduction to C/C++ Programming for Scientists and Engineers
+CSCI 1115 Exploring Computer Science Exercises in C++
+CSCI 1133 Introduction to Computing and Programming Concepts
+CSCI 1135 Exploring Computer Science Exercises in Python
+MATH 1271 Calculus I
+MATH 1272 Calculus II
+CSCI 1933 Introduction to Algorithms and Data Structures
+CSCI 2011 Discrete Structures of Computer Science
+CSCI 2021 Machine Architecture and Organization
+CSCI 2033 Elementary Computational Linear Algebra
+CSCI 2041 Advanced Programming Principles
+MATH 2142 Elementary Linear Algebra
+MATH 2243 Linear Algebra and Differential Equations
+MATH 2263 Multivariable Calculus
+CHEM 2301 Organic Chemistry I
+CHEM 2303 Organic Chemistry II
+CSCI 3003 Introduction to Computing in Biology
+CSCI 3041 Introduction to Discrete Structures and Algorithms
+CSCI 3061 Introduction to Computer Systems
+CSCI 3081 Program Design and Development
+CSCI 4011 Formal Languages and Automata Theory
+CSCI 4041 Algorithms and Data Structures
+CSCI 4061 Introduction to Operating Systems
+MATH 4065 Theory of Interest
+CSCI 4131 Internet Programming
+CHEM 4201 Materials Chemistry
+CSCI 4203 Computer Architecture
+CSCI 4211 Introduction to Computer Networks
+CHEM 4221 Introduction to Polymer Chemistry
+MATH 4242 Applied Linear Algebra
+CSCI 4271 Development of Secure Software Systems
+MATH 4281 Introduction to Modern Algebra
+CHEM 4321 Organic Synthesis
+MATH 4603 Advanced Calculus I
+MATH 4707 Introduction to Combinatorics and Graph Theory
+CSCI 4511 Introduction to Artificial Intelligence
+MATH 4512 Differential Equations with Applications
+MATH 4603 Advanced Calculus I
+CSCI 4611 Programming Interactive Computer Graphics and Games
+CSCI 4707 Practice of Database Systems
+CSCI 5103 Operating Systems
+CSCI 5106 Programming Languages
+CSCI 5115 User Interface Design, Implementation, and Evaluation
+CSCI 5204 Advanced Computer Architecture
+CSCI 5211 Data Communications and Computer Networks
+CSCI 5271 Introduction to Computer Security
+CSCI 5304 Computational Aspects of Matrix Theory
+CSCI 5451 Introduction to Parallel Computing
+CSCI 5465 Introduction to Computing for Biologists
+CSCI 5511 Artificial Intelligence I
+CSCI 5512 Artificial Intelligence II
+CSCI 5521 Machine Learning Fundamentals
+CSCI 5523 Introduction to Data Mining
+CSCI 5525 Machine Learning: Analysis and Methods
+CSCI 5551 Introduction to Intelligent Robotic Systems
+CSCI 5561 Computer Vision
+CSCI 5611 Animation and Planning in Games
+CSCI 5619 Virtual Reality and 3D Interaction
+CSCI 5707 Principles of Database Systems
