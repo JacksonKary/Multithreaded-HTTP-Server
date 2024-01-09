@@ -1,4 +1,4 @@
-# Multithreaded-HTTP-Server
+# Multithreaded-HTTP-Server (Written in C)
 ## Description
 This project is a basic HTTP server that supports multithreading and uses a connection queue that's thread-safe with mutex locks. It's designed to handle only "GET" requests. It is currently set to use 5 threads, meaning it can handle 5 concurrent clients, but this macro can be increased easily.
 
