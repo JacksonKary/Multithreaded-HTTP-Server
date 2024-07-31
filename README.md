@@ -23,25 +23,50 @@ This involved setting up a TCP server socket and accepting incoming client conne
 
 ## Running the Server
 
-There are many ways to test this server. By far, the simplest method is to simply run the makefile command:
+**Try it out for yourself!**
 
-<code>make test</code>
+1. **Clone the Repository**: First, clone this git repository into your directory of choice:
+    ```bash
+    git clone git@github.com:JacksonKary/Multithreaded-HTTP-Server.git
+    ```
 
+2. **Change Directory**: Next, change your working directory to the newly created `Multithreaded-HTTP-Server` folder:
+    ```bash
+    cd Multithreaded-HTTP-Server
+    ```
+
+3. **Build the Program**: To build the program so it's ready to run, use the following command:
+    ```bash
+    make
+    ```
+   > **Note**: If your environment can't execute the `make` command, you may need to install it first. On most Unix-based systems, you can install it using:
+   > - **Debian/Ubuntu**: `sudo apt-get install build-essential`
+   > - **Fedora**: `sudo dnf groupinstall "Development Tools"`
+   > - **macOS**: `xcode-select --install`
+
+There are many ways to test this server. By far, the simplest method is to run the makefile test command:
+```bash
+make test
+```
 or
+```bash
+make test port=<port>
+```
+where `<port>` is the port you want the server to bind to (default is 8000, valid range is 1024 through 65535).
 
-<code>make test port=\<port></code> , where \<port>
-  is the port you want the server to bind to (default is 8000, valid range is 1024 through 65535). 
+However, the most satisfying way to test this server is to actually run it using the following command format:
+```bash
+./http_server <serve_dir> <port>
+```
+where `<serve_dir>` is the directory containing content for clients to request (to use the provided directory, use `server_files/`).
 
-However, the most satisfying way to test this server is to actually run it  using the following command format:
-
-<code>> ./http_server <serve_dir> \<port></code> , where <serve_dir> is the directory containing content for clients to request (To use the provided directory, use "server_files/").
-  
 This launches the server so it is ready to take clients. Now, connect to the server with a client. There are multiple ways to do this, but the coolest way is to send a request via an internet browser.
 
-  Typing: <code>localhost:\<port>/\<resource></code> in your browser and pressing enter should connect, retrieve, and display the results on your screen. \<port> is the port number the server is binded to and \<resource>
-  is the name of the item you're requesting from \<serve_dir> ("server_files/"). 
-
-
+Typing:
+```text
+localhost:<port>/<resource>
+```
+in your browser and pressing enter should connect, retrieve, and display the results on your screen. `<port>` is the port number the server is bound to and `<resource>` is the name of the item you're requesting from `<serve_dir>` (e.g., `server_files/`).
 
 ## What is in this directory?
 <ul>
